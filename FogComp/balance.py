@@ -1,0 +1,21 @@
+import contractInit
+# 查询余额，更新balance.txt
+b1 = contractInit.w3.eth.getBalance("0xE41696E7C8118027fcaC5a4b93FE98420893978B")
+b2 = contractInit.w3.eth.getBalance("0xA6bc9eD754b9a78683c438256E51c6EE5f7e1B2A")
+b3 = contractInit.w3.eth.getBalance("0x423ac5c763D89F0a626e041B66B9038f5B85642F")
+b4 = contractInit.w3.eth.getBalance("0x98b79FBC1B6ADde5f93A16C98c2a90Da6033e196")
+b5 = contractInit.w3.eth.getBalance("0x86038592BC68C81190043a223b92420199BaA8a7")
+b6 = contractInit.w3.eth.getBalance("0x0A58cbdE5469E82dDa3Ec6Cf819f461475d22fd8")
+b7 = contractInit.w3.eth.getBalance("0x1B59bF6c05dF40500faC64FDA248aB3F9d74DcA8")
+b8 = contractInit.w3.eth.getBalance("0xA7c62F8F2eafa03C8760f1Faa460330cc89879BB")
+b9 = contractInit.w3.eth.getBalance("0x82ec0fc638516ABc3880856983008033E3fE0299")
+
+print("0xE41696E7C8118027fcaC5a4b93FE98420893978B:  "+str(b1))
+print("0xA6bc9eD754b9a78683c438256E51c6EE5f7e1B2A:  "+str(b2))
+print("0x423ac5c763D89F0a626e041B66B9038f5B85642F:  "+str(b3))
+print("0x98b79FBC1B6ADde5f93A16C98c2a90Da6033e196:  "+str(b4))
+print("0x86038592BC68C81190043a223b92420199BaA8a7:  "+str(b5))
+print("0x0A58cbdE5469E82dDa3Ec6Cf819f461475d22fd8:  "+str(b6))
+print("0x1B59bF6c05dF40500faC64FDA248aB3F9d74DcA8:  "+str(b7))
+print("0xA7c62F8F2eafa03C8760f1Faa460330cc89879BB:  "+str(b8))
+print("0x82ec0fc638516ABc3880856983008033E3fE0299:  "+str(b9))
